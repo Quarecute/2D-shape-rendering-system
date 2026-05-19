@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/q/Documents/cpp/shape_rendering_system/build",
+  "command": "/usr/bin/clang++ -std=gnu++17 -o CMakeFiles/ShapeRenderingSystem.dir/src/main.cpp.o -c /home/q/Documents/cpp/shape_rendering_system/src/main.cpp",
+  "file": "/home/q/Documents/cpp/shape_rendering_system/src/main.cpp",
+  "output": "/home/q/Documents/cpp/shape_rendering_system/build/CMakeFiles/ShapeRenderingSystem.dir/src/main.cpp.o"
+}
+]
