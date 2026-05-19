@@ -1,7 +1,0 @@
-# ninja log v7
-19	977	1778526435561640173	CMakeFiles/app.dir/src/main.cpp.o	dad5e1b32b54fc6
-978	1076	1778526436520643520	app	f186e34cd79bdb5c
-27	1520	1779208541425096485	build.ninja	3dff872b3847e828
-27	1520	1779208541425096485	/home/q/Documents/cpp/shape_rendering_system/build/cmake_install.cmake	3dff872b3847e828
-22	83	1779208548752856644	CMakeFiles/ShapeRenderingSystem.dir/src/main.cpp.o	f5d82e7ff6c07c80
-83	164	1779208548814046414	ShapeRenderingSystem	9124c30d44ef892e

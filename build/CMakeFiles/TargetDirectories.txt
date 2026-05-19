@@ -1,3 +1,0 @@
-/home/q/Documents/cpp/shape_rendering_system/build/CMakeFiles/ShapeRenderingSystem.dir
-/home/q/Documents/cpp/shape_rendering_system/build/CMakeFiles/edit_cache.dir
-/home/q/Documents/cpp/shape_rendering_system/build/CMakeFiles/rebuild_cache.dir
