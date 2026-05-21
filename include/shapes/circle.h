@@ -5,7 +5,8 @@ class Circle : public Shape {
   public:
     Circle(double x, double y, double r) : Shape(x, y), radius_(r) {}
 
-    void draw() override {};
+    void draw() override;
+
     double radius() const { return radius_; }
 
   private:
