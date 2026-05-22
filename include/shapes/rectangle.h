@@ -1,10 +1,16 @@
+#pragma once
+
 #include "../shape.h"
+#include <memory>
 
 namespace renderer {
 class Rectangle : public Shape {
   public:
     Rectangle(double x, double y, double w, double h) : Shape(x, y), width_(w), height_(h) {}
 
+    std::unique_ptr<Shape> clone() const override {
+      return std::make_unique<Rectangle>(x(), y(), width_, height_);
+    }
     void draw() override;
 
     double width() const { return width_; }
@@ -28,6 +34,9 @@ class Square final : public Shape {
   public:
     Square(double x, double y, double side) : Shape(x, y), side_(side) {}
 
+    std::unique_ptr<Shape> clone() const override {
+      return std::make_unique<Square>(x(), y(), side_);
+    }
     void draw() override final;
 
     double side() const { return side_; }

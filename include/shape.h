@@ -1,11 +1,18 @@
+#pragma once
+
+#include <memory>
+
 // TODO:
 // 1. Семантика перемещения move(double dx, double dy) для перемещения фигур
+// 2. Виртуальная функция clone()
 
 namespace renderer {
 class Shape {
   public:
     Shape(double x, double y) : x_(x), y_(y) {}
+
     virtual void draw() = 0;
+    virtual std::unique_ptr<Shape> clone() const = 0;
     virtual ~Shape() = default;
 
     double x() const { return x_; }
